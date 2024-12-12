@@ -1,9 +1,4 @@
-/**
- * @param {number[]} indices - The reno indices
- * @param {number} length - The length of the race
- * @returns {string} The reno race
- */
-function drawRace(indices, length) {
+function drawRace(indices: number[], length: number): string {
   let res = "";
   indices.map((v, i) => {
     let row = "~".repeat(length);

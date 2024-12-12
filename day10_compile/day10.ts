@@ -1,9 +1,4 @@
-/**
- * @param {string[]} instructions - The instructions to execute
- * @returns {number} The value of the register A
- */
-
-function compile(instructions) {
+function compile(instructions: string[]): number {
   const records = {};
 
   for (let i = 0; i < instructions.length; i++) {
